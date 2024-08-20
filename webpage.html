@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>web page 1</title>
+
+    <style>
+       
+          h1{
+            color: rgb(119, 80, 156);
+            text-align: center;
+            font-size: 50px;
+          }
+
+          body{
+            background-color: black;
+          }
+
+          p{
+            color: white;
+            text-align: center;
+            font-size: 17px;
+            font-family: Arial, Helvetica, sans-serif;
+            
+          }
+          .center-image {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 300px;
+            height: auto;
+          }
+
+          .thick-line{
+            height: 13px;
+            background-color: white;
+            width: 1300px;
+          }
+
+        .form-style{
+            color: white;
+            text-align: center;
+            font-size: 17px;
+
+        }
+
+        .table-fonts{
+            color: white;
+            text-align: center;
+            margin: auto;
+            border-width: 7px;
+            border-radius: 20px;
+            border-spacing: 10px;
+            font-size: 15px;
+            border-style: groove;
+            height: 400px;
+            width: 50%;
+            
+        }
+
+        .order-list{
+            color: white;
+            list-style-position: inside;
+            text-align: center;
+            font-size: 20px;
+            
+        }
+      
+        .unorder-list{
+            color: white;
+            list-style-position: inside;
+            text-align: center;
+            font-size: 20px;
+            
+        }
+        .iframe-container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        .video-container{
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 30%;
+            height:auto ;
+        
+        }
+
+        .audio-font{
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 80%;
+            color: white;
+            height: auto;
+        }
+
+        .box{
+            background-color: palevioletred;
+            padding: 50px;
+            text-align: center;
+            border-radius: 10px;
+            width: 300px;
+            height: 100px;
+            margin: auto;
+
+        }
+
+        .box a{
+            color: black;
+            text-decoration: none;
+            margin: 10px;
+            font-size: 25px;
+        }
+
+        .box a:hover{
+            text-decoration: underline;
+        }
+
+    </style>
+
+</head>
+<body>
+    <h1>Development Zone</h1>
+    <p>
+        Development Zone is an innovative academy dedicated to nurturing the next generation of tech professionals. With a strong focus on hands-on learning, the academy offers comprehensive courses in front-end development, ensuring that students not only learn the theory but also gain practical experience.The curriculum is designed to keep pace with the latest industry trends, equipping students with the skills needed to excel in today’s competitive job market. By fostering a collaborative and supportive environment, Development Zone empowers its students to build a solid foundation in web development, preparing them for successful careers in the tech industry. 
+    </p>
+    
+    <img src="./image/WhatsApp Image 2024-08-20 at 12.50.36 AM (1).jpeg" alt="developement zone" class="center-image" ><br>
+
+    <hr class="thick-line">
+
+        <h1>Students Form</h1>
+
+    <form action="" method="get" class="form-style">
+
+       <label>Full name:</label>&ensp;&ensp;<input type="text" name="" value=""><br><br> 
+       <label>Email:</label>&ensp;&ensp;<input type="email" name="" value=""><br><br> 
+       <label>Password:</label>&ensp;&ensp;<input type="text" name="" value=""><br><br>
+       <label>Date of registration:</label>&ensp;&ensp;<input type="date" name="" value=""><br><br>
+       <label>Color Picker:</label>&ensp;&ensp;<input type="color" name="" value=""><br><br>
+       <label >Enter your message:</label>&ensp;&ensp;<textarea rows="4" cols="35" placeholder="Enter your message here....."></textarea><br>
+       <input type="submit" /> 
+
+
+    </form>
+
+    <hr class="thick-line">
+
+      <h1>Table of students Information</h1>
+
+      <table border="2px" class="table-fonts">
+        <thead>
+            <tr>
+                <th>Student Name</th>
+                <th>Student Semester</th>
+                <th>Student Course</th>
+            </tr>
+            <tbody>
+                <tr>
+                    <td>Amna</td>
+                    <td>5th</td>
+                    <td>HDSE</td>
+                </tr>
+                <tr>
+                    <td>Subhan</td>
+                    <td>2th</td>
+                    <td>ADSE</td>
+                </tr>
+                <tr>
+                    <td>Sana</td>
+                    <td>4th</td>
+                    <td>SBTE</td>
+                </tr>
+            </tbody>
+        </thead>
+      </table>
+
+      <hr class="thick-line">
+
+      <h1>Math Formula's</h1>
+      <p style="font-size: 20px;">
+        -(a+b)<sup>2</sup> = a<sup>2</sup> + 2ab + b<sup>2</sup><br>
+        -(a-b)<sup>2</sup> = a<sup>2</sup> - 2ab + b<sup>2</sup><br>
+        -a<sup>2</sup>-b<sup>2</sup> = (a+b)(a-b)
+    </p>
+
+    <hr class="thick-line">
+
+    <h1>List of Top 16 Students in Order List</h1>
+
+    <ol type="1" start="135" class="order-list" >
+        <li>Amna</li>
+        <li>Samra</li>
+        <li>Ali</li>
+        <li>Yaseen</li>
+        <li>Zain</li>
+        <li>Tabeesh</li>
+        <li>Usman</li>
+        <li>Unzila</li>
+        <li>Mussawir</li>
+        <li>Zeeshan</li>
+        <li>Arsalan</li>
+        <li>Maryam</li>
+        <li>Aliza</li>
+        <li>Rumahna</li>
+        <li>Ojala</li>
+        <li>Dua</li>
+
+    </ol>
+
+    <hr class="thick-line">
+
+    <h1>List of Top 16 Students in Unorder List</h1>
+
+    <ul type="square" class="unorder-list" >
+
+        <li>Amna</li>
+        <li>Samra</li>
+        <li>Ali</li>
+        <li>Yaseen</li>
+        <li>Zain</li>
+        <li>Tabeesh</li>
+        <li>Usman</li>
+        <li>Unzila</li>
+        <li>Mussawir</li>
+        <li>Zeeshan</li>
+        <li>Arsalan</li>
+        <li>Maryam</li>
+        <li>Aliza</li>
+        <li>Rumahna</li>
+        <li>Ojala</li>
+        <li>Dua</li>
+
+    </ul>
+
+    <hr class="thick-line">
+
+    <h1> Best Quarnic Information Video from YouTube</h1>
+
+<div  class="iframe-container">
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/zyHVZAFefXU?si=y4FWAGncGjk00e5R" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+</div>
+
+<hr class="thick-line">
+
+<h1>Islmaic Naat video</h1>
+
+<div class="video-container">
+
+    <video controls >
+    <source src="./video/junaid-jamshed-heart-touching-naat-ilahi-teri-chaukhat-per-official-video-tauheed-islamic.mp4">
+    </video>
+</div><br><br><br>
+
+<hr class="thick-line">
+
+<h1>Islmaic Audio Clip</h1>
+
+<div class="audio-font">  
+    
+    <audio controls>
+    <source src="./audio/ilahi-teri-chaukhat-per-official-video-tauheed-islamic.mp3" type="audio/mp3">
+
+    </audio>
+</div><br><br><br>
+
+<hr class="thick-line">
+<h1><u>Thanks for Viewing my Task 2</u></h1>
+
+<p style="font-size: 30px;">
+    You can easily contact with me
+</p>
+<table style="padding: 20px;" >
+<div class="box">
+    <a href="https://github.com/Mueza-Ejaz" target="_blank">My Github Link</a><br>
+    <a href="https://www.youtube.com/@MuezaEjazOfficial" target="_blank">YouTube Channel Link</a><br>
+    <a href="https://www.linkedin.com/in/mueza-ejaz086/" target="_blank">Linkedin Link</a>
+
+</div>
+</table><br><br>
+
+ <hr class="thick-line">
+ <h1 style="color: white; font-size: 100px;">Task#02 Finish</h1>
+
+</body>
+</html>
